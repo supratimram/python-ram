@@ -1,0 +1,12 @@
+# python program to perform basic mathematical operations#
+Num1=input("Enter the first number:" )
+Num2=input("Enter the second number:" )
+a=int(Num1)+int(Num2)
+s=int(Num1)-int(Num2)
+m=int(Num1)*int(Num2)
+d=float(Num1)/float(Num2)
+print()
+print("Addition:", a)
+print("Subtraction:", s)
+print("Multiplication:", m)
+print("Division:", round(d,1))
